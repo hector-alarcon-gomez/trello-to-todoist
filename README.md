@@ -53,7 +53,7 @@ Start the server
 ## Screenshots
 
 ![Trello tasks](https://raw.githubusercontent.com/hector-alarcon-gomez/trello-to-todoist/main/imgs/trello-tasks.png?token=GHSAT0AAAAAACLHUFJYOX5PUETI562WITWSZLWHOJQ)
-![Process tasks]()
+![Process tasks](https://github.com/hector-alarcon-gomez/raw/main/trello-to-todoist/main/imgs/process-tasks.png)
 ![Todoist tasks](https://raw.githubusercontent.com/hector-alarcon-gomez/trello-to-todoist/main/imgs/todoist-tasks.png?token=GHSAT0AAAAAACLHUFJYZM7QDBYSILS3MP56ZLWHOKQ)
 
 ## Author
