@@ -1,4 +1,4 @@
-# Trello tasks copied into todoist
+# Copy Trello tasks into todoist
 
 Pulls list of tasks from Trello's url and inserts them in a todoist project
 
