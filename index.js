@@ -17,16 +17,14 @@ async function run() {
       throw new Error('Missing config');
     }
 
-    // TODO: ask PM for assumptions
-    // TODO: add jest
     const tasks = await getTrelloTasks(TASK_LIMIT);
     console.log(tasks);
 
-    // const topTasks = tasks.slice(0, TASK_LIMIT);
-    // for (task of topTasks) {
-    //   addTask(task.title, PROJECT_ID);
-    //   console.log(`Task added "${task.title}" to ${PROJECT_ID}`);
-    // }
+    const topTasks = tasks.slice(0, TASK_LIMIT);
+    for (task of topTasks) {
+      addTask(task.title, PROJECT_ID);
+      console.log(`Task added "${task.title}" to ${PROJECT_ID}`);
+    }
   } catch (err) {
     console.log(err);
   }
